@@ -1,0 +1,43 @@
+body {
+    background-color: #051C79; 
+    color: #D8EAF8;  
+    font-family: Arial, sans-serif;
+    overflow: hidden;
+    
+}
+
+h1 {
+    color: #13060E; 
+    text-align: center;
+}
+
+.custom-cont {
+    box-shadow: 0px -5px 25px 10px #DF4074;
+
+}
+
+.image-behind {
+    margin-top: -68px;
+    z-index: -1;
+    transform: translateX(-30%);
+}
+
+.add-btn {
+    background-color: #60FBB3;
+    color: #13060E;
+}
+
+.add-btn:hover {
+    background-color: #41ca8a;
+    color: #13060E;
+}
+
+.rmv-btn {
+    background-color: #DF4074;
+    color: #13060E;
+}
+
+.rmv-btn:hover {
+    background-color: #a0234d;
+    color: #13060E;
+}
