@@ -1,3 +1,2 @@
 Learn Azure
-Walk the dog
 Learn more about Python
