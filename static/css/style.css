@@ -1,5 +1,5 @@
 body {
-    background-color: #051C79; 
+    background-color: #13060E; 
     color: #D8EAF8;  
     font-family: Arial, sans-serif;
     overflow: hidden;
@@ -9,6 +9,31 @@ body {
 h1 {
     color: #13060E; 
     text-align: center;
+    font-weight: 600;
+    background: linear-gradient(to top, #13060E, #DF4074);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+label {
+    color:#D8EAF8
+}
+
+.item-remove{
+    color: #13060E;
+    background-color: #DF4074;
+    border-radius: 5px;
+    padding: 5px;
+    font-weight: bold;
+}
+
+.item-add {
+    color: #13060E;
+    background-color: #60FBB3;
+    border-radius: 5px;
+    padding: 5px;
+    font-weight: bold;
+
 }
 
 .custom-cont {
@@ -17,9 +42,16 @@ h1 {
 }
 
 .image-behind {
-    margin-top: -68px;
+    margin-top: -100px;
     z-index: -1;
-    transform: translateX(-30%);
+    position: absolute;
+    bottom: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 50%;
+    max-width: 50%;
+    height: auto;
+    
 }
 
 .add-btn {
